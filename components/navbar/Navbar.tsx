@@ -6,7 +6,6 @@ const navItems = [
     {path: '/about', text: 'About'},
     {path: '/contact', text: 'Contact'},
     {path: '/pricing', text: 'Pricing'},
-    {path: '/prueba', text: 'Prueba'},
 ]
 
 export const Navbar = () => {
