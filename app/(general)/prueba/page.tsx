@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Prueba",
@@ -8,8 +8,6 @@ export const metadata: Metadata = {
 
 export default function Prueba() {
   return (
-    <>
       <span className="text-7xl">Prueba</span>
-    </>
   );
 }
